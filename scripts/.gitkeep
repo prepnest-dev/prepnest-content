@@ -1,0 +1,37 @@
+# Content Processing Scripts
+
+This directory contains automation scripts for the content pipeline:
+
+## Core Scripts
+
+- `catalogSourceMaterials.js` - Content inventory and indexing
+- `prepare_for_ocr.py` - PDF preprocessing for OCR
+- `extract_structure.py` - Document structure extraction
+- `rewriteContent.js` - AI-powered content rewriting
+- `generateQuizzes.js` - Automated assessment creation
+- `generateAudio.js` - Audio narration generation
+- `createSubjectBundle.js` - Content packaging
+
+## Helper Scripts
+
+- `logger.js` - Centralized logging utility
+- `promptTemplates.js` - AI prompt templates
+- `curriculumHelper.js` - Curriculum alignment tools
+- `contentValidator.js` - Quality assurance checks
+- `quizValidator.js` - Assessment validation
+- `examPatternHelper.js` - WASSCE pattern analysis
+
+## Usage
+
+```bash
+# Install dependencies
+npm install
+pip install -r requirements.txt
+
+# Run individual scripts
+node scripts/catalogSourceMaterials.js
+python scripts/prepare_for_ocr.py
+
+# Run complete pipeline
+npm run pipeline
+```

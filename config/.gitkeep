@@ -1,0 +1,17 @@
+# Configuration Directory
+
+Contains configuration files and templates for the content pipeline:
+
+## Files
+
+- `subjects.json` - WASSCE subject definitions and metadata
+- `voices.json` - ElevenLabs voice mappings
+- `prompts/` - AI prompt templates by subject
+- `curriculum/` - WASSCE syllabus mappings
+- `quality_standards.json` - Content quality criteria
+
+## Environment Configuration
+
+- `.env.example` - Template for environment variables
+- `processing_config.json` - Pipeline processing settings
+- `api_endpoints.json` - External service configurations

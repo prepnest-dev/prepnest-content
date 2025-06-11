@@ -1,0 +1,54 @@
+# Source Content Directory
+
+This directory contains the raw educational materials for processing:
+
+- Textbooks (PDF/Word format)
+- Past Questions and Answers
+- Chief Examiners' Reports
+- Syllabi and Curriculum Frameworks
+- Teacher Resources
+
+## Structure
+
+### Subject Directories
+- `01_Core_Mathematics/`
+- `02_English_Language/`
+- `03_Integrated_Science/`
+- `04_Social_Studies/`
+- `05_Biology/`
+- `06_Chemistry/`
+- `07_Elective_Mathematics/`
+- `08_Physics/`
+- `09_Geography/`
+- `10_History/`
+- `11_Government/`
+- `12_Economics/`
+- `13_Literature_in_English/`
+- `14_French/`
+- `15_Visual_Arts/`
+- `16_Music/`
+
+### Shared Resources
+- `_Shared_Assets/` - Cross-subject materials
+- `_Templates/` - Document templates
+- `_Guidelines/` - Content creation guidelines
+
+## Upload Instructions
+
+1. Place your local content from `/Users/isaacnortey/Desktop/Prepnest_Content` here
+2. Maintain the subject-based directory structure
+3. Use descriptive filenames with version numbers
+4. Include metadata files for each subject
+
+## Supported Formats
+
+- **Documents**: PDF, DOCX, DOC, TXT
+- **Images**: PNG, JPG, SVG, WebP
+- **Audio**: MP3, WAV, M4A
+- **Video**: MP4, MOV, AVI (will be processed)
+
+## Size Limits
+
+- Individual files: ≤100MB
+- Subject folders: ≤1GB
+- Total repository: ≤5GB (use Git LFS for large files)

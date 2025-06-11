@@ -1,0 +1,21 @@
+# Documentation Directory
+
+Comprehensive documentation for the Prepnest content pipeline:
+
+## Architecture Documents
+
+- `architecture.md` - System architecture overview
+- `pipeline_flow.md` - Detailed processing workflow
+- `api_integration.md` - External service integrations
+
+## Development Guides
+
+- `setup_guide.md` - Development environment setup
+- `content_guidelines.md` - Content creation standards
+- `troubleshooting.md` - Common issues and solutions
+
+## Quality Assurance
+
+- `qa_checklist.md` - Content quality verification
+- `testing_procedures.md` - Automated testing protocols
+- `performance_benchmarks.md` - Processing performance metrics
